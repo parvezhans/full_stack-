@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Portal</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: beige;
+        color: black;
+    }
+
+    .hero {
+        background-color: darkgreen;
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .search-box {
+        margin-top: 20px;
+    }
+
+    .search-box input {
+        padding: 10px;
+        width: 200px;
+        margin: 5px;
+    }
+
+    .search-box button {
+        padding: 10px 20px;
+        background-color: brown;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .section {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .cards {
+        display: inline-block;
+    }
+
+    .card {
+        background-color: white;
+        width: 220px;
+        padding: 15px;
+        margin: 10px;
+        border-left: 5px solid brown;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .card h3 {
+        color: darkgreen;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+    <h1>Work That Fits You</h1>
+    <p>Search jobs that match your interest</p>
+
+    <div class="search-box">
+        <input type="text" placeholder="Job title">
+        <input type="text" placeholder="City">
+        <button>Search</button>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Job Categories</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Technology</h3>
+            <p>Software, Web</p>
+        </div>
+
+        <div class="card">
+            <h3>Marketing</h3>
+            <p>SEO, Digital</p>
+        </div>
+
+        <div class="card">
+            <h3>Finance</h3>
+            <p>Accounts</p>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Featured Jobs</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Web Developer</h3>
+            <p>Remote</p>
+        </div>
+
+        <div class="card">
+            <h3>Java Developer</h3>
+            <p>Bangalore</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
